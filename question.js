@@ -2,7 +2,7 @@
 
 class Question {
   // this.Question._All.push(this);
-  // this.save();
+  this.save();
 }
 
 save(){
