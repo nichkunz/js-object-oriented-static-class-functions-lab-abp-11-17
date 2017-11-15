@@ -6,12 +6,12 @@ class Question {
   }  
 }
 
-save(){
+let save(){
     this.constructor._All.push(this)
   }
 
 static All(){
-    this.constructor._All.push(this);  
+    this.constructor._All.push(this);
 }
 
 Question._All = [];
