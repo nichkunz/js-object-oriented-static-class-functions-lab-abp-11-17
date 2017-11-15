@@ -3,7 +3,7 @@
 class Question {
   constructor() {
     this.constructor._All.push(this)
-    this.save();
+    this.save;
   }
 }
 
