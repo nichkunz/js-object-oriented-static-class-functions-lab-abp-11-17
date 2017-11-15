@@ -1,5 +1,5 @@
 'use strict';
 
-class questions(){
+class Question(){
   
 }
