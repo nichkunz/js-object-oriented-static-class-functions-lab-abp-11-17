@@ -4,11 +4,11 @@ class Question {
   constructor() {
     this.constructor._All.push(this);
     this.save();
-    
+
   }
-  
+
 save(){
-    this.Question._All.push(this)
+    this.constructor._All.push(this)
   }
 
 
