@@ -5,6 +5,9 @@ class Question {
     this.content = content;
     this.save;
   }
+  save () {
+    
+  }
   static All() {
     return this._All;
   }
