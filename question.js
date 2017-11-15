@@ -5,7 +5,9 @@ class Question {
     this.content = content;
     this.save;
   }
-  static All() {}
+  static All() {
+    return this._All;
+  }
 }
 
 Question._All = [];
