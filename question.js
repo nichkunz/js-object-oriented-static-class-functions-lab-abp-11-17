@@ -11,7 +11,7 @@ function save(){
     this.constructor._All.push(this)
   }
 
-Question._All(){
+Static All(){
     this.constructor._All.push(this);
 }
 
