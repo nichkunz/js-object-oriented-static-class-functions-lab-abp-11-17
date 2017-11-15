@@ -11,5 +11,8 @@ save(){
     this.constructor._All.push(this)
   }
 
+static All(){
+  
+}
 
 Question._All = [];
