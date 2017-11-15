@@ -1,12 +1,12 @@
-'use strict';
+// 'use strict';
 
 class Question {
   constructor() {
     this.save();
-  }  
+  }
 }
 
-let save(){
+function save(){
     this.constructor._All.push(this)
   }
 
