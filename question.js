@@ -17,7 +17,6 @@ Question._All = [];
 
 
 
-
 //
 // function save(){
 //     this.constructor._All.push(this)
