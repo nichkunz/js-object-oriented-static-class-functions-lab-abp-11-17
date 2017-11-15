@@ -2,7 +2,7 @@
 
 class Question {
   constructor() {
-    this.constructor._All.push(this);
+
     this.save();
 
   }
@@ -12,7 +12,7 @@ save(){
   }
 
 static All(){
-  
+    this.constructor._All.push(this);  
 }
 
 Question._All = [];
