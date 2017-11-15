@@ -1,7 +1,7 @@
 'use strict';
 
 class Question {
-  this._All.push(this);
+  this.Question._All.push(this);
 }
 
 Question._All = [];
